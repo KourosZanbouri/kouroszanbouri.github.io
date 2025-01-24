@@ -48,7 +48,7 @@ localizedDates = false
     #shortname = 'your-disqus-shortname'
 # Google Analytics
   [services.googleAnalytics]
-    ID = 'G-WE97LMG20N'
+    ID = 'G-9416ZH3E99'
     
 
 [Languages]
