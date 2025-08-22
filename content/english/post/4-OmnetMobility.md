@@ -43,9 +43,9 @@ With a distance and an angle, it then uses trigonometry (`cosine` and `sine`) to
 
 The relationship between two points is defined by the Euclidean distance formula:
 
-$$
+\[
 D = \\sqrt{(X_{UE} - X_{gNB})^2 + (Y_{UE} - Y_{gNB})^2}
-$$
+\]
 
 Where:
 * $D$ is the distance between the UE and the gNB.
