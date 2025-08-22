@@ -2,8 +2,6 @@
 title: "Saving Time on Simulations: My OMNeT++ & Simu5G Position Generator"
 date: 2025-08-22T10:33:07+01:00
 description: "A custom-built Streamlit tool designed to automate UE positioning for OMNeT++ and Simu5G network simulations, saving valuable research time."
-series:
-  - "Network Simulation Tools"
 author: "Kouros Zanbouri"
 summary: "Manually configuring coordinates for numerous User Equipments (UEs) in OMNeT++ and Simu5G simulations is a tedious task. This post details the creation of a Python-based web tool using Streamlit that automates this process. The application allows for interactive, visual placement of UEs in static or mobile scenarios, generating the necessary .ini configuration code instantly to accelerate the simulation setup workflow."
 tags: ["Python", "Streamlit", "OMNeT++", "Simu5G", "5G", "Network Simulation", "Automation"]
@@ -45,7 +43,9 @@ With a distance and an angle, it then uses trigonometry (`cosine` and `sine`) to
 
 The relationship between two points is defined by the Euclidean distance formula:
 
-$D = \sqrt{(X_{UE} - X_{gNB})^2 + (Y_{UE} - Y_{gNB})^2}$
+{{< math >}}
+D = \\sqrt{(X_{UE} - X_{gNB})^2 + (Y_{UE} - Y_{gNB})^2}
+{{< /math >}}
 
 Where:
 * $D$ is the distance between the UE and the gNB.
