@@ -225,12 +225,3 @@ url = "https://www.webofscience.com/wos/author/record/1651032"
   weight = 200
   identifier = "posts"
   url = "/fa/post/"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
