@@ -10,11 +10,13 @@ author = "Hugo Authors"
  
  ---
 ## <i class="fa-solid fa-magnifying-glass fa-xs"></i> Research Interests 
+ - 5G Networks & Wireless Time-Sensitive Networking (TSN)
  - Computer Networks
- - Cloud computing
- - Engineering optimization
- - Metaheuristics
- - Internet of Things (IoT)
+ - Cloud Computing & Edge Computing
+ - Internet of Things (IoT) & Industrial IoT
+ - Engineering Optimization
+
+ 
 
 
 ---
