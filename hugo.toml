@@ -21,18 +21,17 @@ pygmentsCodefencesGuessSyntax = true
 # Localized dates requires Hugo version 0.87.0
 localizedDates = false
 
+
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Allows raw HTML in markdown
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-#        [markup.goldmark.renderer]
-#        unsafe=true
-		
-		
 
 [taxonomies]
     category = "categories"
